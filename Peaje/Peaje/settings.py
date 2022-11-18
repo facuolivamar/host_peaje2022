@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://hostpeaje2022-production.up.railway.app/', '0.0.0.0']
 
+CSRF_TRUSTED_ORIGINS = ['https://hostpeaje2022-production.up.railway.app/']
 
 # Application definition
 
